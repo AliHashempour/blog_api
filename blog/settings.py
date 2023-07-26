@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     # 3rd party
     'rest_framework',
     # local
-    'articles.apps.ArticlesConfig'
-    'apis.apps.ApisConfig'
+    'articles.apps.ArticlesConfig',
+    'apis.apps.ApisConfig',
 ]
 
 MIDDLEWARE = [
