@@ -8,3 +8,8 @@ from articles.models import Article
 class ArticleListView(generics.ListCreateAPIView):
     queryset = Article.objects.filter(show=True)
     serializer_class = ArticleSerializer
+
+
+class ArticleDetailView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Article.objects.filter(show=True)
+    serializer_class = ArticleSerializer
