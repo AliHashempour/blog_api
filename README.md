@@ -9,10 +9,7 @@ for using api.
 - [Django 4.0.10](https://docs.djangoproject.com/en/4.2/releases/4.0.10/) , Web Framework.
 - [Django Rest Framework 3.14](https://www.django-rest-framework.org/) , Web API's.
 - [JWT](https://jwt.io/), JSON Web Tokens.
-
-[//]: # (- [PostgreSQL]&#40;https://www.postgresql.org/&#41; , Database.)
-
-[//]: # (- [Git]&#40;https://git-scm.com/doc&#41; , VCS&#40;Version Control System&#41;.)
+- [PostgreSQL](https://www.postgresql.org/) , Database.
 
 ## Endpoints
 
