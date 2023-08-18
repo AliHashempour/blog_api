@@ -10,12 +10,12 @@ class ArticleSerializer(serializers.ModelSerializer):
         exclude = ('id', 'created_at',)
 
     def validate(self, data):
-        banned_words = ['LGBTQ', 'gay', 'pride']
+        banned_words = ['trash', 'horrible', 'bad']
         body = data['body']
         for word in banned_words:
             if word in body:
                 raise serializers.ValidationError(
-                    "we dont support gay rights here :)"
+                    "we dont support these words  rights here :)"
                 )
         return data
 
